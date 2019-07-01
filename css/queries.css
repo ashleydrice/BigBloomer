@@ -1,0 +1,219 @@
+/* ////////  LARGE  ////////  */
+@media(max-width:1023px) {
+
+    .how {
+        height: auto;
+    }
+}
+
+/* ////////  MEDIUM////////  */
+@media(max-width:786px) {
+
+    nav ul,
+    nav.dark ul {
+        background: #fff;
+    }
+
+    .logo {
+        position: fixed;
+        top: 0;
+        margin-top: 16px;
+        color: #FF3838;
+    }
+
+    nav ul {
+        max-height: 0;
+    }
+
+    .showing {
+        max-height: 34em;
+    }
+
+    nav ul li {
+        box-sizing: border-box;
+        width: 100%;
+        padding: 5px;
+        text-align: center;
+    }
+
+
+    nav ul li a,
+    nav ul li a:hover {
+        color: #FF3838;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+}
+
+@media(max-width:767px) {
+
+    .hero h1 {
+        font-size: 450%;
+    }
+
+    .hero h2 {
+        font-size: 150%;
+    }
+
+    .about {
+        height: auto;
+    }
+
+    .about img {
+        margin-bottom: 80px;
+    }
+
+    .you {
+        height: auto;
+    }
+
+    .you--box {
+        margin: 40px 0px;
+    }
+
+    .you img {
+        margin: 40px 0 10px 0;
+    }
+
+    .you h4,
+    .you h6 {
+        font-size: 200%;
+    }
+
+    .you h5 {
+        font-size: 150%;
+    }
+
+    .cta--box {
+        padding: 10px;
+    }
+
+    .cta h3 {
+        font-size: 230%;
+    }
+
+    .cta h4 {
+        font-size: 130%
+    }
+
+    .cta h5 {
+        font-size: 110%;
+    }
+
+    .form {
+        height: auto;
+    }
+
+    .top-margin {
+        margin-top: 30px;
+    }
+
+
+    form {
+        margin-bottom: 50px;
+    }
+
+}
+
+/* ////////  SMALL ////////  */
+@media only screen and (max-width:480px) {
+
+    .cta h3 {
+        font-size: 230%;
+    }
+
+    .cta h4 {
+        font-size: 200%;
+        margin-top: 20px;
+    }
+
+    .cta h5 {
+        120%;
+    }
+
+    .cta button {
+        background-color: #FF3838;
+        padding: 15px;
+        border: 0px;
+        border-radius: 100px;
+        font-size: 110%;
+        color: #fff;
+        margin-top: 40px;
+    }
+
+    .footer ul li {
+        font-size: 90%;
+    }
+
+}
+
+
+/* ////////  XSMALL ////////  */
+@media only screen and (max-width:320px) {
+
+    .hero h1 {
+        font-size: 200%;
+    }
+
+    .hero h2 {
+        font-size: 120%;
+    }
+
+    .hero a:link,
+    .cta a:link {
+        font-size: 85%;
+        padding: 8px;
+    }
+
+    .about h3,
+    .how h3,
+    .cta h3,
+    .form h3 {
+        font-size: 130%;
+    }
+
+    .about h4,
+    .how h4,
+    .cta h4 {
+        font-size: 120%;
+    }
+
+    .about--box {
+        margin: 60px 0 0 0;
+    }
+
+    .how h3 {
+        margin-top: 60px;
+    }
+
+    .how {
+        height: auto;
+    }
+
+    .how--box {
+        margin: 20px 0;
+    }
+
+    .you {
+        height: auto;
+    }
+
+    .you h4,
+    .you h5 {
+        font-size: 140%;
+    }
+
+    .cta h6 {
+        font-size: 50%;
+    }
+
+    footer h1 {
+        text-align: center;
+    }
+
+    footer ul {
+        text-align: center;
+    }
+}
